@@ -5,6 +5,10 @@
 	<meta charset="UTF-8"/>
 </head>
 <body>
+	<div id="container">
+		<button id="btn">Click Me</button>
+
+	</div>
 	<script>
 	
 	function add7(num){
@@ -14,7 +18,26 @@
 		return word.slice(-1)
 	}
 
-	console.log(add7(10))
+	const container = document.querySelector('#container')
+	const content = document.createElement('div')
+	content.classList.add("content")
+	content.textContent = "This is a test of DOM"
+	container.appendChild(content)
+
+	const redpara = document.createElement('p')
+	redpara.style.cssText = "color: red"
+	redpara.textContent = "I am red"
+	container.appendChild(redpara)
+	
+	const header = document.createElement('h3')
+	header.style.cssText = "color: blue"
+	header.textContent = "I am blue"
+	container.appendChild(header)
+
+	const btn = document.querySelector('#btn')
+	btn.addEventListener('click',function(e){console.log(e.target)
+		e.target.style.background = 'blue'})
+
 	</script>
 </body>
 
