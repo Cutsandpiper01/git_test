@@ -1,8 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+
+#TopOfPage{
+	position: fixed;
+	right: 0;
+}
+
+#BottomOfPage{
+	position: fixed;
+	bottom: 0;
+
+}
+
+#RightOfPage{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+div.CenterContainer{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
+
+
+}
+div.CenterContainer button{
+
+	display: inline;
+}
+
+
+
+
+</style>
+
 <head>
-<h1>Hello World</h1>
+	<title> GoogleReplica </title>
+
 </head>
 
+
 <body>
+<div id="TopOfPage">
+<button type="button">Sign In </button>
+</div>
+
+<div class=CenterContainer>
+	
+
+
+
+	<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"  alt="Google Logo" style="display: inline;">
+	<input type="text" size="60" style="display: block;"> </input>
+
+
+	
+	<button type="button" >Google Search </button>
+	<button type="button" >I'm Feeling Lucky </button>
+	
+</div>
+
+
+<div id="BottomOfPage">
+	<a href="#">Advertising</a>
+	<a href="#">Business</a>
+	<a href="#">How Search Works</a>
+</div>
+
+	<div id="RightOfPage">
+		<a href="#">Privacy</a>
+		<a href="#">Terms</a>
+		<a href="#">Settings</a>
+	</div>
+
 
 
 </body>
+</html>
