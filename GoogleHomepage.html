@@ -12,12 +12,24 @@
 	position: fixed;
 	bottom: 0;
 
+
+}
+
+#footer{
+	background-color: red;
 }
 
 #RightOfPage{
 	position: fixed;
 	right: 0;
 	bottom: 0;
+}
+
+#TopLeftOfPage{
+	position: fixed;
+	left: 0;
+	top: 0;
+
 }
 
 div.CenterContainer{
@@ -35,6 +47,11 @@ div.CenterContainer button{
 	display: inline;
 }
 
+a:link{
+	color: black;
+	text-decoration: none;
+
+}
 
 
 
@@ -48,7 +65,13 @@ div.CenterContainer button{
 
 <body>
 <div id="TopOfPage">
-<button type="button">Sign In </button>
+	<div id="TopLeftOfPage">
+	<a href="#" > About</a>
+	<a href="#" > Store</a>
+	</div>
+	<a href="#"> Gmail</a>
+	<a href="#"> Images</a>
+	<button type="button">Sign In </button>
 </div>
 
 <div class=CenterContainer>
@@ -63,10 +86,10 @@ div.CenterContainer button{
 	
 	<button type="button" >Google Search </button>
 	<button type="button" >I'm Feeling Lucky </button>
-	
+
 </div>
 
-
+<div id="footer">
 <div id="BottomOfPage">
 	<a href="#">Advertising</a>
 	<a href="#">Business</a>
@@ -78,7 +101,7 @@ div.CenterContainer button{
 		<a href="#">Terms</a>
 		<a href="#">Settings</a>
 	</div>
-
+</div>
 
 
 </body>
