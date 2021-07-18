@@ -11,3 +11,9 @@ Project: Google Homepage: Goal recreate the google homescreen in html and css
  - Two energy drinks down many to go. CODE WEEKEND!
  - UI is now added to rock paper scissors. same story of could do some more modifications to looks but that is a future problem
  - I really should show what the computer gets, makes the game alot more fun
+
+ Project: Etch-a-Sketch: Goal create a dynamic grid that will be colored with mouse movement.
+ - Fun project, coolest one yet no doubt
+ - I should have used my functions a bit better earlier, kinda shot myself in the foot
+ - TIL that one style will overwrite the other, 30 minutes of my life I won't get back
+ - Neat!
