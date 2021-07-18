@@ -17,3 +17,8 @@ Project: Google Homepage: Goal recreate the google homescreen in html and css
  - I should have used my functions a bit better earlier, kinda shot myself in the foot
  - TIL that one style will overwrite the other, 30 minutes of my life I won't get back
  - Neat!
+
+ Project: Calculator: Goal create a calculator that can do basic math
+ - Bit messy, I should really redesign how I did the number logging, although I have doubts about how I actually want to do that
+ - I am addicted to this color scheme, Graphic design is my passion
+ - Could add a bunch of if statements to make the output and it would be pretty scalable, turns out 10 hours of coding straight start to fall apart with logic

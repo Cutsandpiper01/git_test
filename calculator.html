@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<style>
+
+#row{
+	width: 320px;
+	height: 96px;
+	background: #FF7F00;
+
+}
+#button{
+	width: 30%;
+	height: 85px;
+	border: solid #FF7F00;
+	display: inline-block;
+	background: #FF007F;
+	text-align: center;
+}
+
+#button:hover{
+	background: #FF008F;
+
+}
+
+</style>
+
+
+<html> 
+<head>
+	<title>Calculator</title>
+	<meta charset="UTF-8"/>
+</head>
+<body>
+	<div id='reset' style="background: #FF007F;position: fixed; top: 0; right: 0; width: 100px; height: 75px; text-align: center;">Reset</div>
+	<div id='gridcontainer'; style="width: 320px; height: 600px; border: thick solid #FF007F;">
+		<div style="width: 100%; height: 20%; background-color: #00FFFF;">
+			<label id='screen' style="text-align: center;">Result</label>
+		</div>
+		<div id='row'>
+			<div id = 'button'; class='one'>1</div>
+			<div id = 'button'; class='two'>2</div>
+			<div id = 'button'; class='three'>3</div>
+
+		</div>
+		<div id='row'>
+			<div id = 'button'; class='four'>4</div>
+			<div id = 'button'; class='five'>5</div>
+			<div id = 'button'; class='six'>6</div>
+			
+
+		</div>
+		<div id='row'>
+			<div id = 'button'; class='seven'>7</div>
+			<div id = 'button'; class='eight'>8</div>
+			<div id = 'button'; class='nine'>9</div>
+			
+
+		</div>
+		<div id='row'>
+			<div id = 'button'; class='plus'>+</div>
+			<div id = 'button'; class='zero'>0</div>
+			<div id = 'button'; class='minus'>-</div>
+			
+
+		</div>
+		<div id='row'>
+			<div id = 'button'; class='divide'>/</div>
+			<div id = 'button'; class='equal'>=</div>
+			<div id = 'button'; class='multiply'>*</div>
+			
+
+		</div>
+
+	</div>
+
+	<script src="calculat.js">
+	
+	</script>
+</body>
+
+
+
+
+
+
+
+</html>
