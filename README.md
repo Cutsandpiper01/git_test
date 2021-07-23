@@ -22,3 +22,10 @@ Project: Google Homepage: Goal recreate the google homescreen in html and css
  - Bit messy, I should really redesign how I did the number logging, although I have doubts about how I actually want to do that
  - I am addicted to this color scheme, Graphic design is my passion
  - Could add a bunch of if statements to make the output and it would be pretty scalable, turns out 10 hours of coding straight start to fall apart with logic
+ -Update on this project, math has been refined and redesign of UI
+ -Functions are much cleaner now as well compared
+
+ Project Library: Goal create an object based library to store book information
+ - I ignored the lesson and added a shelf feature I thought was cool
+ - Still have alot of work to do to meet the goals, need to think on how to do zoom in and data storage
+ - I think I have a decent framework in place this time suprisingly
