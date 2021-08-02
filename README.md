@@ -29,3 +29,6 @@ Project: Google Homepage: Goal recreate the google homescreen in html and css
  - I ignored the lesson and added a shelf feature I thought was cool
  - Still have alot of work to do to meet the goals, need to think on how to do zoom in and data storage
  - I think I have a decent framework in place this time suprisingly
+ -^I lied regarding above I really wish I didn't have to draw the whole display every time
+ -Project complete mostly. Many more visual changes I kinda want to make but that will be a future problem
+ - want to add(shelfadder,shelfname changer, info editor, drag and drop resort, better UI, better ID framework and more)
